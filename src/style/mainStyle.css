@@ -1,0 +1,134 @@
+.hiddens {
+    display: none;
+}
+
+.show {
+    display: block;
+    overflow-y: scroll;
+    animation-name: show-years-school;
+    animation-duration: 0.1s;
+    height: 100px;
+    position: absolute;
+    color: black;
+    width: 117px;
+    margin-top: 2px;
+    border: 0.1px solid #3333;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    border-radius: 3px;
+    cursor: context-menu;
+}
+
+@keyframes show-years-school {
+    0% {
+        height: 18px;
+    }
+
+    25% {
+        height: 28px;
+    }
+
+    50% {
+        height: 45px;
+    }
+
+    75% {
+        height: 91px;
+    }
+}
+.attendanceItem {
+    background: #f6f6f6;
+    height: 41px;
+    display: flex;
+}
+
+.attendance {
+    display: flex;
+    align-items: center;
+    align-items: 41px;
+    justify-content: center;
+    padding-right: 14px;
+    padding-left: 14px;
+    cursor: context-menu;
+}
+
+.actives {
+    border-top: 2px solid green;
+    background: white;
+    color: green;
+    height: 40px;
+    width: 189px;
+    padding-right: 0px;
+    padding-left: 0px
+}
+
+.number-student {
+    margin-right: 12px;
+    margin-left: 12px;
+    border: 1px solid green;
+    width:100px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.number-student-go-to-school {
+    border: 1px solid #3333;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.Study-permits-are-allowed {
+    margin-left: 12px;
+    margin-right: 12px;
+    border: 1px solid #3333;
+    width: 120px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Study-permits-are-not-allowed {
+    border: 1px solid #3333;
+    width: 127px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.classItem {
+    border-bottom: 1px solid #3333;
+}
+
+.list-student {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.btn-submit {
+    float: right;
+    margin-right: 14px;
+    background-color: rgb(52, 150, 52);
+}
+
+.submit {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.editable-row .ant-form-item-explain {
+    position: absolute;
+    top: 100%;
+    font-size: 12px;
+  }
+  
